@@ -1,0 +1,29 @@
+.StickyHeader-wrapper>.StickyHeader-not-pinned {
+    display: none;
+}
+
+.StickyHeader-wrapper>.StickyHeader-pinned {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 100;
+    width: 100%;
+    display: block;
+    animation: slideDown 0.5s ease-in-out;
+}
+@keyframes slideDown {
+    0% {
+        transform: translateY(-25px); /* Start position */
+    }
+    100% {
+        transform: translateY(0); /* End position */
+    }
+}
+
+.StickyHeader {
+    transition: all 0.5s ease;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
