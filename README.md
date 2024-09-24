@@ -8,19 +8,23 @@ A simple and reusable React component that renders its children within a sticky 
 You can install the package using npm, yarn, or pnpm:
 
 ```bash
-# Using npm
 npm install @swapnesh.io/stickyheader
+```
+<button onclick="navigator.clipboard.writeText('npm install @swapnesh.io/stickyheader')">Copy</button>
 
-# Using yarn
+```bash
 yarn add @swapnesh.io/stickyheader
+```
+<button onclick="navigator.clipboard.writeText('yarn add @swapnesh.io/stickyheader')">Copy</button>
 
-# Using pnpm
+```bash
 pnpm add @swapnesh.io/stickyheader
 ```
+<button onclick="navigator.clipboard.writeText('pnpm add @swapnesh.io/stickyheader')">Copy</button>
 
 ## Usage
 
-Wrap your header or navigation component within the `StickyHeader` component to make it sticky on scroll.
+Wrap your header or navigation component within the `StickyHeader` component to make it sticky.
 
 ```jsx
 import React from 'react';
@@ -29,13 +33,13 @@ import HeaderComponent from './HeaderComponent'; // Import your header component
 
 const App = () => {
   const styles = {
-    // Add any custom styles here, if needed
+    // Your custom styles here
   };
 
   return (
     <StickyHeader>
       <HeaderComponent style={styles} className="classnames">
-        {/* Your header content goes here */}
+        {/* Your header content */}
       </HeaderComponent>
     </StickyHeader>
   );
@@ -43,14 +47,6 @@ const App = () => {
 
 export default App;
 ```
-
-### Props
-
-The `StickyHeader` component accepts the following props:
-
-| Prop        | Type       | Description                                           |
-|-------------|------------|-------------------------------------------------------|
-| `children`  | `ReactNode`| The content that will be rendered inside the sticky header.|
 
 ## License
 
