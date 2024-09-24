@@ -10,17 +10,17 @@ You can install the package using npm, yarn, or pnpm:
 ```bash
 npm install @swapnesh.io/stickyheader
 ```
-<button onclick="navigator.clipboard.writeText('npm install @swapnesh.io/stickyheader')">Copy</button>
+<button onclick="navigator.clipboard.writeText('npm install @swapnesh.io/stickyheader')"></button>
 
 ```bash
 yarn add @swapnesh.io/stickyheader
 ```
-<button onclick="navigator.clipboard.writeText('yarn add @swapnesh.io/stickyheader')">Copy</button>
+<button onclick="navigator.clipboard.writeText('yarn add @swapnesh.io/stickyheader')"></button>
 
 ```bash
 pnpm add @swapnesh.io/stickyheader
 ```
-<button onclick="navigator.clipboard.writeText('pnpm add @swapnesh.io/stickyheader')">Copy</button>
+<button onclick="navigator.clipboard.writeText('pnpm add @swapnesh.io/stickyheader')"></button>
 
 ## Usage
 
