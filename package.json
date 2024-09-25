@@ -1,6 +1,6 @@
 {
-  "name": "@swapnesh.io/stickyheader",
-  "version": "1.0.0",
+  "name": "@swapneshio/stickyheader",
+  "version": "1.0.5",
   "description": "A React component that renders children within a sticky header with predefined CSS and JS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,16 @@
     "type": "git",
     "url": "https://github.com/swapnesh839/swapneshio-stickyheader.git"
   },
-  "author": "Swapnesh",
+  "keywords": [
+    "React",
+    "React-sticky-header",
+    "@swapneshio/stickyheader",
+    "stickyheader",
+    "stickyheader-react",
+    "header",
+    "ReactHeader"
+  ],
+  "author": "Swapnesh.io",
   "license": "MIT",
   "peerDependencies": {
     "react": "^18.3.1",

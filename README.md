@@ -1,5 +1,5 @@
 
-# @swapnesh.io/stickyheader
+# @swapneshio/stickyheader
 
 A simple and reusable React component that renders its children within a sticky header with predefined CSS and JavaScript.
 
@@ -8,19 +8,19 @@ A simple and reusable React component that renders its children within a sticky 
 You can install the package using npm, yarn, or pnpm:
 
 ```bash
-npm install @swapnesh.io/stickyheader
+npm install @swapneshio/stickyheader
 ```
-<button onclick="navigator.clipboard.writeText('npm install @swapnesh.io/stickyheader')"></button>
+<button onclick="navigator.clipboard.writeText('npm install @swapneshio/stickyheader')"></button>
 
 ```bash
-yarn add @swapnesh.io/stickyheader
+yarn add @swapneshio/stickyheader
 ```
-<button onclick="navigator.clipboard.writeText('yarn add @swapnesh.io/stickyheader')"></button>
+<button onclick="navigator.clipboard.writeText('yarn add @swapneshio/stickyheader')"></button>
 
 ```bash
-pnpm add @swapnesh.io/stickyheader
+pnpm add @swapneshio/stickyheader
 ```
-<button onclick="navigator.clipboard.writeText('pnpm add @swapnesh.io/stickyheader')"></button>
+<button onclick="navigator.clipboard.writeText('pnpm add @swapneshio/stickyheader')"></button>
 
 ## Usage
 
@@ -28,7 +28,7 @@ Wrap your header or navigation component within the `StickyHeader` component to 
 
 ```jsx
 import React from 'react';
-import StickyHeader from '@swapnesh.io/stickyheader';
+import StickyHeader from '@swapneshio/stickyheader';
 import HeaderComponent from './HeaderComponent'; // Import your header component
 
 const App = () => {
