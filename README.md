@@ -27,6 +27,10 @@ pnpm add @swapneshio/stickyheader
 You can include the `@swapneshio/stickyheader` package directly from jsDelivr using the following link:
 
 ```html
+https://cdn.jsdelivr.net/npm/@swapneshio/stickyheader@latest/dist/index.js
+```
+OR
+```html
 <script src="https://cdn.jsdelivr.net/npm/@swapneshio/stickyheader@latest/dist/index.js"></script>
 ```
 ## Usage
