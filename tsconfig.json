@@ -2,9 +2,9 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "ES6",
-    "jsx": "react",               // Transpile JSX to React.createElement
+    "jsx": "react-jsx",               // Transpile JSX to React.createElement
     "declaration": true,          // Generate .d.ts files
-    "declarationDir": "./types",  // Output types here
+    "declarationDir": "./dist",  // Output types here
     "outDir": "./dist",           // Output JavaScript here
     "moduleResolution": "node",   // Use Node.js-style module resolution
     "esModuleInterop": true,      // Interop for importing CommonJS modules
