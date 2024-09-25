@@ -28,7 +28,7 @@ You can include the `@swapneshio/stickyheader` package directly from jsDelivr us
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@swapneshio/stickyheader@latest/dist/index.js"></script>
-
+```
 ## Usage
 
 Wrap your header or navigation component within the `StickyHeader` component to make it sticky.
