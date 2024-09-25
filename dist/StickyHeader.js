@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { jsx as _jsx } from "react/jsx-runtime";
+import { useEffect, useRef, useState } from 'react';
 import './styles.css';
 var StickyHeader = function (_a) {
     var style = _a.style, className = _a.className, children = _a.children;
@@ -31,8 +32,7 @@ var StickyHeader = function (_a) {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [lastScrollY]);
-    return (React.createElement("div", { className: 'StickyHeader-wrapper' },
-        React.createElement("div", { ref: headerRef, style: style, className: "StickyHeader ".concat(className || '') }, children)));
+    return (_jsx("div", { className: 'StickyHeader-wrapper', children: _jsx("div", { ref: headerRef, style: style, className: "StickyHeader ".concat(className || ''), children: children }) }));
 };
 export default StickyHeader;
 //# sourceMappingURL=StickyHeader.js.map
