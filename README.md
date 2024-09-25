@@ -22,6 +22,13 @@ pnpm add @swapneshio/stickyheader
 ```
 <button onclick="navigator.clipboard.writeText('pnpm add @swapneshio/stickyheader')"></button>
 
+## CDN Usage
+
+You can include the `@swapneshio/stickyheader` package directly from jsDelivr using the following link:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@swapneshio/stickyheader@latest/dist/index.js"></script>
+
 ## Usage
 
 Wrap your header or navigation component within the `StickyHeader` component to make it sticky.
