@@ -1,5 +1,4 @@
-
-# @swapneshio/stickyheader
+# React/stickyheader
 
 A simple and reusable React component that renders its children within a sticky header with predefined CSS and JavaScript.
 
@@ -8,39 +7,29 @@ A simple and reusable React component that renders its children within a sticky 
 You can install the package using npm, yarn, or pnpm:
 
 ```bash
-npm install @swapneshio/stickyheader
+npm install @swapneshdeete/react-sticky-header
 ```
-<button onclick="navigator.clipboard.writeText('npm install @swapneshio/stickyheader')"></button>
+
+<button onclick="navigator.clipboard.writeText('npm install @swapneshdeete/react-sticky-header')"></button>
 
 ```bash
-yarn add @swapneshio/stickyheader
+yarn add @swapneshdeete/react-sticky-header
 ```
-<button onclick="navigator.clipboard.writeText('yarn add @swapneshio/stickyheader')"></button>
+
+<button onclick="navigator.clipboard.writeText('yarn add @swapneshdeete/react-sticky-header')"></button>
 
 ```bash
-pnpm add @swapneshio/stickyheader
+pnpm add @swapneshdeete/react-sticky-header
 ```
-<button onclick="navigator.clipboard.writeText('pnpm add @swapneshio/stickyheader')"></button>
 
-## CDN Usage
-
-You can include the `@swapneshio/stickyheader` package directly from jsDelivr using the following link:
-
-```html
-https://cdn.jsdelivr.net/npm/@swapneshio/stickyheader@latest/dist/index.js
-```
-OR
-```html
-<script src="https://cdn.jsdelivr.net/npm/@swapneshio/stickyheader@latest/dist/index.js"></script>
-```
-## Usage
+<button onclick="navigator.clipboard.writeText('pnpm add @swapneshdeete/react-sticky-header')"></button>
 
 Wrap your header or navigation component within the `StickyHeader` component to make it sticky.
 
 ```jsx
-import React from 'react';
-import StickyHeader from '@swapneshio/stickyheader';
-import HeaderComponent from './HeaderComponent'; // Import your header component
+import React from "react";
+import StickyHeader from "@swapneshdeete/react-sticky-header";
+import HeaderComponent from "./HeaderComponent"; // Import your header component
 
 const App = () => {
   const styles = {
